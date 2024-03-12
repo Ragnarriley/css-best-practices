@@ -1,0 +1,169 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Courier New", Courier, monospace;
+}
+
+nav {
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  background-color: aquamarine;
+}
+
+header {
+  background-color: rgb(74, 225, 139);
+  height: calc(100vh - 70px);
+  padding: 24px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+h1 {
+  font-size: 42px;
+}
+
+.subheader {
+  font-size: 36px;
+  margin: 16px 0 24px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button {
+  background-color: bisque;
+  color: black;
+  border: none;
+  padding: 8px 16px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+a {
+  color: black;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.logo {
+  width: 300px;
+}
+
+ul {
+  display: flex;
+}
+
+li {
+  list-style-type: none;
+  padding-left: 16px;
+}
+
+.row {
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#about,
+#discord,
+#contact {
+  display: flex;
+  padding: 48px 0;
+}
+
+/* ABOUT
+
+*/
+
+#about {
+  display: flex;
+  padding: 48px 0;
+}
+
+h2 {
+  font-size: 48px;
+  text-align: center;
+  margin-bottom: 24px;
+}
+.section__description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section__description--wrapper {
+  width: 60%;
+  padding: 0 24px;
+}
+
+.section__description--para {
+  font-size: 64px;
+  line-height: 1.5;
+  margin-bottom: 24px;
+}
+
+.about__img--wrapper {
+  width: 40%;
+  padding: 0 24px;
+}
+
+/*
+
+DISCORD
+
+*/
+
+#discord {
+  background-color: palegoldenrod;
+  padding: 0 24px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+#section {
+}
+
+/*
+
+CONTACT
+
+*/
+
+#contact {
+    background-color: aliceblue;
+}
+
+form {
+    height: 300px;
+    width: 100%;
+    max-width: 400px;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+input, textarea {
+    font-size: 30px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    padding: 10px 10px;
+}
+
+footer {
+    background-color: skyblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
